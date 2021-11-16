@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+
+
+   webserverpoli:
+    container_name: servicioswebpolint
+    image: servidoweb_poli
+    restart: no
+    ports:
+     - 9090:80
